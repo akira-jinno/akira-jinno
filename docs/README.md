@@ -9,14 +9,14 @@
 |最終学歴|国立大学法人 電気通信大学・電子工学部　電子工学科|
 |資格|普通自動車第一種運転免許(AT 限定)<br>Cisco Certified Network Associate（CCNA）<br>LPIC-1、LPIC-2、LPIC-3（Mixed Environments）<br>AWS Certified Solutions Architect - Associate（SAA-C03）<br>AWS Certified SysOps Administrator - Associate<br>AWS Certified Developer - Associate<br>AWS Certified Solutions Architect - Professional|
 
-| Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       | This        | This         |
-| column     | column      | column       |
-| will       | will        | will         |
-| be         | be          | be           |
-| left       | right       | center       |
-| aligned    | aligned     | aligned      |
+| 項目 | 内容 | 
+|:-----------|------------:|
+| This       | This        |
+| column     | column      |
+| will       | will        |
+| be         | be          |
+| left       | right       |
+| aligned    | aligned     |
 
 
 
