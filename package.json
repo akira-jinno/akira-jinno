@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/akira-jinno/akira-jinno#readme",
   "devDependencies": {
-    "markdownlint-cli": "^0.39.0",
     "md-to-pdf": "^5.2.4"
   }
 }
