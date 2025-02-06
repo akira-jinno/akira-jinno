@@ -8,8 +8,8 @@
 |生年月|1983年3月|
 |居住地|神奈川県|
 |最終学歴|国立大学法人 電気通信大学・電子工学部　電子工学科|
-|資格|Cisco Certified Network Associate（CCNA）<br>LPIC-1、LPIC-2、LPIC-3（Mixed Environments）<br>AWS Certified Solutions Architect - Associate（SAA-C03）<br>AWS Certified SysOps Administrator - Associate<br>AWS Certified Developer - Associate<br>AWS Certified Solutions Architect - Professional<br>AWS Certified DevOps Engineer – Professional<br>AWS Certified Advanced Networking – Specialty<br>AWS Certified Security – Specialty<br>HashiCorp Certified: Terraform Associate (003)<br>Certified Kubernetes Application Developer（CKAD）|
-
+|資格|**ネットワーク関連**<br>Cisco Certified Network Associate（CCNA）<br>LPIC-1、LPIC-2、LPIC-3（Mixed Environments）<br>AWS Certified Solutions Architect - Associate（SAA-C03）<br>AWS Certified SysOps Administrator - Associate<br>AWS Certified Developer - Associate<br>AWS Certified Solutions Architect - Professional<br>AWS Certified DevOps Engineer – Professional<br>AWS Certified Advanced Networking – Specialty<br>AWS Certified Security – Specialty<br>HashiCorp Certified: Terraform Associate (003)<br>Certified Kubernetes Application Developer（CKAD）|
+|個人ブログ|https://techblog-jin.com/|
 
 
 
