@@ -34,7 +34,7 @@ PM x 2人<br>
 自社プライベートクラウド(オンプレミス型、仮想型(VMware))
 
 【ツール】<br>
-Ansible・vSphere Client・Git・Zabbix・slack・Zoom
+Ansible・vSphere Client・Git・VScode・Zabbix・slack・Zoom
 
 【プロダクト概要】<br>
 法人向けのマネージド型のプライベートクラウドサービス（オンプレミス・仮想）
