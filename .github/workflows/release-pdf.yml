@@ -10,7 +10,7 @@ jobs:
   release:
     name: Release PDF
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15 # タイムアウト時間を延長
     permissions:
       contents: write
       pull-requests: write
@@ -25,15 +25,35 @@ jobs:
       - run: npm install
       - run: npm install md-to-pdf 
       - run: chmod +x node_modules/.bin/md-to-pdf 
-      # - run: npm run build:pdf
-      # - run: md-to-pdf docs/README.md --config-file ./pdf-configs/config.js --no-sandbox
-      # - run: npx md-to-pdf docs/README.md --config-file ./pdf-configs/config.js --no-sandbox
+
+      # Chromium の依存関係をインストール
+      - name: Install dependencies for Chromium # 追加
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            fonts-liberation \
+            libappindicator3-1 \
+            libasound2 \
+            libatk-bridge2.0-0 \
+            libatk1.0-0 \
+            libcups2 \
+            libdbus-1-3 \
+            libgdk-pixbuf2.0-0 \
+            libnspr4 \
+            libnss3 \
+            libx11-xcb1 \
+            libxcomposite1 \
+            libxrandr2 \
+            xdg-utils
+
+      # md-to-pdf 実行時のエラー対策
       - name: Run md-to-pdf with Puppeteer fix
         run: |
           export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
           export PUPPETEER_EXECUTABLE_PATH=$(which google-chrome-stable || which chromium || which google-chrome)
-          export PUPPETEER_ARGS="--no-sandbox"
+          export PUPPETEER_ARGS="--headless --disable-gpu --no-sandbox"
           npx md-to-pdf docs/README.md --config-file ./pdf-configs/config.js
+
       - name: Create a draft release
         uses: softprops/action-gh-release@v1
         with:
