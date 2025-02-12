@@ -26,7 +26,8 @@ jobs:
       - run: npm install md-to-pdf 
       - run: chmod +x node_modules/.bin/md-to-pdf 
       # - run: npm run build:pdf
-      - run: md-to-pdf docs/README.md --config-file ./pdf-configs/config.js --no-sandbox
+      # - run: md-to-pdf docs/README.md --config-file ./pdf-configs/config.js --no-sandbox
+      - run: npx md-to-pdf docs/README.md --config-file ./pdf-configs/config.js --no-sandbox
       - name: Create a draft release
         uses: softprops/action-gh-release@v1
         with:
