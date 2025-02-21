@@ -58,7 +58,7 @@ LINUX
 【MW】<br>
 Apache・Postfix・Sendmail・Dovecot・MySQL・PostgreSQL・Squid・Nginx 
 
----
+**────────────**
 
 ### 大手システムインテグレーター企業
 
@@ -89,7 +89,7 @@ LINUX、Windows<br>
 【MW】<br>
 VMWare・JP1・Actifio・VDI基盤<br>
 
----
+**────────────**
 
 ### 建設設備企業
 
